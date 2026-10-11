@@ -5,7 +5,7 @@
 - Checkout utama dipindahkan ke `project/indomonitor` dalam workspace lamaran; namespace, judul browser, navigasi, logo, dan tautan publik memakai Indomonitor. Repo tetap mandiri, dengan backend/frontend/pipeline/docs dalam satu monorepo.
 - Pengujian final: **6 Python tests lulus**, Ruff lulus, **16 Java tests lulus**, dan build TypeScript/Vite berhasil. Database test terpisah; database aplikasi tidak diisi fixture. Launcher pytest setelah pemindahan folder diperbaiki menjadi `uv run --link-mode hardlink --module pytest`.
 - Browser desktop memverifikasi dashboard berisi 267 URL dari 38 domain dalam filter aktif. Data terakhir 8 Oktober 2026, bukan klaim data terbaru. Dashboard hanya menampilkan waktu data terakhir; status partial/gagal dan detail riwayat tetap terlihat di Pengambilan data. Error API tetap ditampilkan.
-- Screenshot asli dashboard tersedia di `docs/screenshots/dashboard.jpg` dan README. Berkas ini sengaja dipublikasikan; capture lainnya, database, `.env`, tools, cache, dan runtime tetap diabaikan.
+- Screenshot dashboard tersedia di `docs/screenshots/dashboard.png` dan README. Capture awal JPEG browser diganti dengan PNG langsung dari renderer, viewport 1440 × 900 pada device scale 2 (2880 × 1800 piksel), tanpa kompresi JPEG. Berkas ini sengaja dipublikasikan; capture lainnya, database, `.env`, tools, cache, dan runtime tetap diabaikan.
 - Daftar berkas publik diperiksa terhadap runtime, konfigurasi rahasia, pola token/kunci privat, dan kontak lamaran; tidak ditemukan pola tersebut. Pemeriksaan pola bukan jaminan audit keamanan lengkap.
 
 Dokumen ini membedakan hasil pemeriksaan dari kemampuan yang belum diuji. Angka data bukan fixture aplikasi dan bukan ukuran seluruh pemberitaan Indonesia.

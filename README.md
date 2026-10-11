@@ -10,7 +10,7 @@ Repositori mandiri: [github.com/ramaikn/indomonitor](https://github.com/ramaikn/
 
 ## Tampilan aplikasi
 
-![Dashboard Indomonitor dengan tren pemberitaan dan distribusi nada GDELT V2Tone](docs/screenshots/dashboard.jpg)
+![Dashboard Indomonitor dengan tren pemberitaan dan distribusi nada GDELT V2Tone](docs/screenshots/dashboard.png)
 
 Screenshot aplikasi lokal dengan data GDELT yang tersimpan. Waktu data terakhir ada di dashboard; status kegagalan dan riwayat collector tersedia di tab Pengambilan data. Analisis nada memakai V2Tone, bukan model sentimen yang dilatih sendiri.
 
